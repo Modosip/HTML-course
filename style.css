@@ -1,0 +1,47 @@
+body {
+	background-color: #5d4037;
+	color: rgb(255, 255, 255);
+	border-color: white;
+}
+a {
+	color: gray;
+}
+h1 {
+	text-align: center;
+}
+
+.menu {
+	width: 200px;
+/*		Ширина меню */ 
+	padding: 5px;
+	/*	 Отступы от рамки до пунктов меню */
+	border: 2px solid rgb(2, 73, 73);
+/*		Рамка вокруг меню */
+  }
+  
+
+  .menu P {
+	margin: 0 0 2px;
+  }
+
+  .menu A {
+	padding: 2px;
+	/* Отступ от рамки вокруг ссылки до текста */
+	display: block;
+	/* Ссылка как блочный элемент */
+		 border: 1px solid rgb(133, 0, 0);
+		/* Маскируем рамку вокруг ссылки */
+	text-decoration: none;
+	/* Убираем подчеркивание у ссылок */
+  }
+
+  .menu A:hover {
+	background: #cf7500c7;
+	/* Цвет фона под ссылкой */
+	color: #4ea6fd;
+	/* Новый цвет ссылки */
+	 border: 1px dashed rgb(32, 24, 24)
+	/*  Рамка вокруг ссылки */
+
+  }
+ 
